@@ -1,0 +1,51 @@
+.head{
+    background-color: black;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+li:hover{
+    color: blue;
+}
+ul{
+    list-style-type: none;
+    
+}
+ul li{
+    text-align: center;
+    display: inline;
+    margin-right: 15px;
+    cursor: pointer;  
+
+}
+#one{
+    display: flex;
+    justify-content:space-around;
+    margin-right: 10px;
+    padding: 50px;
+    
+}
+.two{
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    padding: 2%;
+    text-align: center;
+}
+button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    color: gray;
+}
+footer{
+    background-color: black;
+    color: wheat;
+    bottom: 0;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
